@@ -1,0 +1,26 @@
+# Author: Anaya Valluvan
+#
+# FR: Fully Resolved
+# PR: Partially Resolved
+# UR: Unresolved
+# SYM: Symmetric
+# In all 4 scenarios, bulk centre of motion
+# is at rest. 
+# Doppler broadening is limited to 1000 km/s
+# as otherwise, when combined with the Doppler 
+# shifts of clumps, the signal will fall quite 
+# outside the DC2 simulated response region of 
+# 1143-1171 keV. 
+
+# SYM: No asymmetry
+
+# Clump: Contains 2.4 x 10^-4 M_\odot total     (Siegert+ 2015, Weinberger+2020)
+# 44Ti yield which is symmetrically expanding 
+# Has peak energy equal to 1157.02 keV
+DataChallenge.Source		    SYM_clump
+SYM_clump.ParticleType               1
+SYM_clump.Beam                       FarFieldPointSource 0 0
+SYM_clump.Orientation                Galactic Fixed -2.129570 111.734745
+SYM_clump.Spectrum                   Gaussian 1157.02 1.63 3         # Central value, 1-sigma Doppler broadening alone (corresponds to 1000 km/s spherically symmetric), What is (3)?
+SYM_clump.Flux                       0.00036
+SYM_clump.FarFieldTransmissionProbability  TP_Earth_occultation_550km_zenith_pointing.dat
