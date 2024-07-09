@@ -22,5 +22,5 @@ SYM_clump.ParticleType               1
 SYM_clump.Beam                       FarFieldPointSource 0 0
 SYM_clump.Orientation                Galactic Fixed -2.129570 111.734745
 SYM_clump.Spectrum                   Gaussian 1157.02 1.63 3         # Central value, 1-sigma Doppler broadening alone (corresponds to 1000 km/s spherically symmetric), What is (3)?
-SYM_clump.Flux                       0.00036
+SYM_clump.Flux                       0.0003
 SYM_clump.FarFieldTransmissionProbability  TP_Earth_occultation_550km_zenith_pointing.dat

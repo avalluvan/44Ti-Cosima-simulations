@@ -24,3 +24,6 @@ Doppler shifted away from the observer
 (redshifted). Has peak energy lower than 1157 keV
 
 All spectra follow simple Gaussian distributions. 
+The flux is taken as the value between 2.1 x 10^-5 
+in Grefenstette et al 2015 and 3.5 x 10^-5 ph/cm^2/s
+in Siegert et al 2015
